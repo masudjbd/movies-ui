@@ -28,4 +28,10 @@ public class DemoApplicationTests {
 		String body = "Como Estas";
 		assertEquals(10,body.length());
 	}
+	
+	@Test
+	public void exampleTest4() {
+		String body = "Como Estas";
+		assertEquals(11,body.length());
+	}
 }
