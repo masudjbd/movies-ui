@@ -180,4 +180,10 @@ public class DemoApplicationTests {
 		String body = "Como3 Estas";
 		assertEquals(10,body.length());
 	}
+    
+    @Test
+	public void exampleTest29() {
+		String body = "Com333o3 Estas";
+		assertEquals(10,body.length());
+	}
 }
